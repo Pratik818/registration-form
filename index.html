@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+        }
+
+        .container {
+
+            background-color: rgb(49, 15, 81);
+            display: flex;
+            color: white;
+            justify-content: center;
+            position: sticky;
+
+        }
+
+        input {
+            background-color: rgb(8, 2, 11);
+            height: 30px;
+            border-radius: 8px;
+        }
+
+        a {
+            color: white;
+        }
+
+        textarea {
+            background-color: rgb(8, 2, 11);
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="action.php">
+            <h2> Registration form </h2><br>
+            <label for="Firstname">Enter your name</label></br>
+            <input type="text" id="Firstname" name="Firstname" required />
+            <br />
+            <br />
+
+
+
+            <label for="Lastname">Enter your Lastname</label></br>
+            <input type="text" id="Lastname" name="Lastname" required />
+            <br />
+            <br />
+
+            <label for="Email">Enter your Email</label></br>
+            <input type="text" id="Email" name="Email" required />
+            <br />
+            <br />
+            <label for="Password">Enter your Password</label></br>
+            <input type="text" id="Password" name="Password" required />
+            <br />
+            <br />
+
+            <br />
+            <br />
+
+
+
+            <input type="radio" id="Personal account" name="Personal account" required />
+            <label for="Personal account">Personal account</label> <br> </br>
+
+            <input type="radio" id="Business account" name="Business  account" required />
+            <label for="Business account">Business account</label> <br>
+
+            <input type="checkbox" id="Agreement" name="Agreement" required />
+            <label for="Agreement">I accepted the<a href="#none"> terms and conditions</a></label> <br>
+            <br />
+            <br />
+            <br />
+            <br />
+
+
+            <p>
+                Upload a Profile Picture
+            </p>
+
+            <input type="file" value="choosefile" /><br> </br>
+
+            <label for="age">input your Age(Years)</label></br>
+            <input type="number" id="Age" name="Age" required /></br></br>
+
+
+            <label for="hear">How did you hear about us?</label></br>
+
+            <select name="(select ones)" name="select ones">
+                <option value="Advertisement">Advertisement</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Friends">Friends</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="Provide a box">I like coding on the beach</label></br>
+            <textarea name="text-area" id="text-area1" cols="20" rows="2"></textarea>
+
+            <br />
+            </br>
+            <button type="button" style="align-items: center; width: 190px ;height: 30px;">Submit</button>
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+
+    </div>
+
+
+    </div>
+</body>
+
+</html>
